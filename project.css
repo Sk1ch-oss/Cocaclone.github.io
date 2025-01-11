@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    text-align: end;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+nav ul li{
+    flex: 1;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 14px;
+    text-align: center;
+    color: #000000;
+    padding-top:20px;
+    padding-bottom: 20px; 
+    font-size: 20px;
+    transition: background-color 0.3s;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgb(185, 185, 185);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.bomb{
+    display: block;
+    text-align: left;
+    height: 480px;
+    width: 633px;
+    position: absolute;
+    left: 60%;
+    top: 38%;
+}
+
+.logo{
+    height: 55px;
+}
+
+.cola{
+    position: absolute;
+    display: block;
+    height: 550px;
+    left: 55%;
+    bottom: 17%;
+    padding-left: 15px;
+
+}
+
+h1{
+    text-align: left;
+    padding-left: 335px;
+    padding-top: 70px;
+    font-size: 60px;
+}
+
+span{
+    font-size: 60px;
+    padding-left: 10px;
+    color: red;
+}
+
+.fp{
+    text-align: left;
+    padding-left:50px;
+    padding-top: 40px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.fp2{
+    text-align: left;
+    padding-left:35px;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.fp3{
+    text-align: left;
+    padding-left:120px;
+    font-size: 25px;  
+}
+
+.fp4{
+    text-align: left;
+    padding-left:50px;
+    font-size: 25px;
+}
+
+.fp5{
+    text-align: left;
+    padding-left:380px;
+    font-size: 25px;
+}
+
+.xosq{
+    text-align: left;
+    padding-left: 25px;
+    font-size: 60px;
+}
+
+button{
+    display: block;
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    font-size: 15px;
+    background-color: rgb(207, 26, 26);
+    border: 2px solid;
+    color: white;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.but{
+    display: block;
+    padding-left: 400px;
+    padding-top: 50px;
+    color: red;
+}
+
+.havayi{
+    text-decoration: none;
+    color: white;
+}
+
+div button:hover{
+    background-color: rgb(190, 71, 71);
+}
